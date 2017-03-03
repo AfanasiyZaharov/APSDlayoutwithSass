@@ -63,7 +63,6 @@ header .logo{
 	height: 100%;
 }
 .slider .text-container{
-	font-family: $boldOSFont;
 	text-transform: uppercase;
 	padding: 15px 29px;
 	width: 100%;
@@ -83,12 +82,29 @@ header .logo{
 }
 .slider .item-text .item-header{
 	margin-left: 25px;
+	font-family: $boldOSFont;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-size: 17pt;
+	word-spacing: -0.9px;
 }
 .slider .item-text .item-info{
+	margin-top: 5px;
 	margin-left: 25px;
 	text-transform: uppercase;
 	color: #ffffff;
+}
+.slider .item-text .item-info .icon-img{
+    margin-right: 3px;
+	display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+.slider .item-text .item-info .info-container{
+	font-size: 13px;
+	display: inline-block;
+	margin-right: 26px;
+}
+.slider .item-text .item-info .info-container:last-child{
+	margin-right: 0;
 }
