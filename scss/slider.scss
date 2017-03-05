@@ -1,0 +1,104 @@
+.slider{
+	margin-top: 14px;
+	width: 100%;
+}
+.slider .img-container-1{
+	position: relative;
+    background-image: url(../img/img1.jpg);
+    background-size: 134% 123%;
+    background-position: 0px -7px;
+    display: inline-block;
+    width: 480px;
+    height: 360px;
+}
+.slider .img-container-2{
+	background-image: url(../img/img2.jpg);
+	background-size: 134% 123%;
+    background-position: 0px -7px;
+    display: inline-block;
+    width: 480px;
+    height: 360px;
+    position: relative;
+}
+.slider .img-container-3{
+	position: relative;
+	background-image: url(../img/img3.jpg);
+	background-size: 134% 123%;
+    background-position: 0px -7px;
+    display: inline-block;
+    width: 480px;
+    height: 360px;
+}
+.slider .item-type{
+    font-family: $boldOSFont;
+    padding: 8px 0px 0px 20px;
+    text-transform: uppercase;
+    width: 130px;
+    position: absolute;
+    bottom: 80px;
+    height: 27px;
+    background-color: #ff9311;
+    color: white;
+    font-size: 13.7px;
+}
+.slider .item-type .icon-img{
+	margin-right: 4px;
+}
+.slider .text-container{
+	text-transform: uppercase;
+	padding: 15px 29px;
+	width: 100%;
+	background: rgba(56,49,41,0.85);
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+}
+.slider .item-text{
+	height: 100%;
+}
+.slider .border{
+    border-left: 3px solid #ff9311;
+    float: left;
+    height: 40px;
+    width: 3px;
+    margin-top: 4px;
+}
+.slider .item-text .item-header{
+	margin-left: 25px;
+	font-family: $boldOSFont;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 17pt;
+	word-spacing: -0.9px;
+}
+.slider .item-text .item-info{
+	margin-left: 25px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.slider .item-text .item-info .icon-img{
+    margin-right: 3px;
+	display: inline-block;
+	color: $active-color;
+}
+.slider .item-text .item-info .info-container{
+	display: inline-block;
+	margin-right: 26px;
+	padding-top: 3px;
+	font-size: 15px;
+}
+.slider .item-text .item-info .info-container:last-child{
+	margin-left: -5px;
+    margin-right: 0;
+
+}
+.slider .item-text .item-info .info-container span{
+    display: inline-block;
+    font-family: OpenSansRegular;
+    font-size: 14.5px;
+    padding-left: 3px;
+    padding-top: 1px;
+}
+.slider .item-text .item-info .info-container:last-child span{
+	font-size: 12.5px;
+}
